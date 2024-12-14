@@ -1,0 +1,61 @@
+
+.hritik{
+    background-color: black;
+}
+.title{
+    background: #f79d00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ display:inline-block;
+ font-size:3rem;
+ font-weight:bold;
+
+}
+.navBar{
+    display: flex;
+    color:lime;
+    justify-content: space-around;
+    align-items: center;
+    font-size:2rem;
+    margin-top:0.3rem;
+    margin-top: 1vh;
+}
+
+.navBar:hover{
+    cursor: pointer;
+}
+
+.nav-menu{
+      display: flex;
+      align-items: center;
+      gap:5rem;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.nav-menu li:hover{
+    color:white;
+    transform: scale(1.08);
+}
+
+.nav-btn{
+     
+       width:20rem;
+       text-align: center;
+       padding:5px 5px 5px 5px;
+       border-radius: 10px;
+       transition: all 0.5s;
+       color:black;
+       background: #f79d00;  /* fallback for old browsers */
+       background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
+       background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+       
+}
+.nav-btn:hover{
+    background-color: white;
+    color:black;
+    transform: scale(1.04);
+}
