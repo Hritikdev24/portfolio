@@ -1,0 +1,143 @@
+.education {
+  width: 100%;
+
+  background-color: black;
+}
+
+.timeLine {
+  width: 100%;
+
+  position: relative;
+  perspective: 1000px;
+}
+
+.container {
+  width: 100%;
+  padding: 3rem;
+  /* margin-top:10rem; */
+  position: relative;
+}
+
+.text-box {
+  width: 50%;
+  position: relative;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 1rem;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 0px 0px 4px white;
+}
+
+
+
+@keyframes right-animation {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+
+@keyframes left-animation {
+  0% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.text-box:hover {
+  transform: scale(1.04);
+  cursor: progress;
+}
+.text-box:hover .card-subtitle a {
+  color: coral;
+  text-decoration: underline;
+}
+
+.card-title {
+  color: #f60505;
+  text-shadow: 1px 0.5px 2px black;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.card-subtitle a {
+  color: white;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.card-subtitle a::first-letter {
+  color: lime;
+}
+
+.card-year {
+  color: red;
+  margin-top: 0.8rem;
+  font-size: 1.5rem;
+}
+.card-marks {
+  color: white;
+  margin-top: 0.8rem;
+  font-size: 2rem;
+}
+.marks {
+  color: orangered;
+  margin-left: 0.3rem;
+}
+
+.left-container {
+  left: 0;
+  animation-name: left-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+
+.right-container {
+  left: 50%;
+  animation-name: right-animation;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+.container img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.left-container-img {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+}
+.right-container-img {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.education-main{
+  text-align: center;
+  color: red;
+  font-size:3rem;
+  padding: 1.2rem;
+  margin: 2rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 4rem;
+
+}
+.education-main::first-letter{
+  color: white;
+  font-size: 4.2rem;
+}

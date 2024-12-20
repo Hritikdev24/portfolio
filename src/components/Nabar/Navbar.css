@@ -1,42 +1,56 @@
 
 .hritik{
     background-color: black;
+
 }
+
+
 .title{
-    background: #f79d00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  color: white;
  display:inline-block;
- font-size:3rem;
+ font-size:4rem;
  font-weight:bold;
 
 }
 .navBar{
+  
     display: flex;
-    color:lime;
-    justify-content: space-around;
+    color:red;
+    justify-content: space-between;
     align-items: center;
     font-size:2rem;
     margin-top:0.3rem;
     margin-top: 1vh;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
+.cross-sign{
+    display: none;
+}
 .navBar:hover{
     cursor: pointer;
+ 
 }
-
+.sub{
+    color:red;
+}
+.list-menu{
+   display: none;
+}
 .nav-menu{
       display: flex;
-      align-items: center;
+      margin-top: 1rem;
+      align-items:center;
       gap:5rem;
     list-style: none;
     transition: 0.5s;
+    font-size:2.5rem;
+    position: relative;
+    justify-content: space-between;
 }
 
-.nav-menu li:hover{
+.nav-menu Link:hover{
     color:white;
     transform: scale(1.08);
 }
@@ -58,4 +72,43 @@
     background-color: white;
     color:black;
     transform: scale(1.04);
+}
+
+.login-btn{
+all:unset;
+display: inline;
+color:red;
+position:absolute;
+ top:-200px;
+ left:35rem;
+border: 1px  solid red;
+padding: 1rem;
+width:20rem;
+font-size:2rem;
+text-align: center;
+transition-property: all;
+transition-duration: 0.5s;
+transition-timing-function: ease-in-out;
+border-radius: 4px;
+}
+.hritik{
+    position: relative;
+}
+.login-btn:hover{
+  background-color: red;
+  color:white;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.login-btn.show{
+    top:0.5vh;
+}
+.login-btn.hide{
+    top:-200px;
+}
+.white{
+    color: white;
+}
+.red-color{
+    color:red;
 }

@@ -1,0 +1,118 @@
+
+
+.contacs-main{
+    height: 100vh;
+   
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:center;
+    background-color: black;
+    
+}
+
+.form{
+     border:2px solid red;
+     width:60rem;
+     height:70vh;
+     background: rgba(255, 255, 255, 0.2); 
+     backdrop-filter: blur(10px); 
+     -webkit-backdrop-filter: blur(10px); 
+     border: 1px solid rgba(255, 255, 255, 0.3); 
+     border-radius: 15px; 
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     padding: 3rem;
+    overflow: hidden;
+    transition-property:all;
+    transition-duration:0.5s;
+    transition-timing-function:ease-in-out;
+
+
+}
+
+.input-field{
+    margin-top:2rem;
+}
+.label{
+    color:white;
+    font-size:2rem;
+    display: block;
+    margin-bottom:0.3rem;
+}
+.form-title{
+    text-align: center;
+    font-size:3rem;
+    margin: 2rem;
+    text-shadow: 0px 0px 2px black;
+}
+.form-title::first-letter{
+    color:red;
+    font-size: 4rem;
+}
+.input{
+    all:unset;
+    width:100%;
+    padding: 1rem;
+    color:white;
+    font-size:1.5rem;
+    border-bottom: 1px solid red;
+  
+   
+}
+
+.form-btn{
+    all: unset;
+    width:20rem;
+border-radius: 0px;
+margin-left: 2rem;
+padding:1rem;
+font-size: 2rem;
+text-align: center;
+border-radius: 5px;
+}
+.red{
+    background-color: rgb(215, 20, 20);
+}
+.blue{
+    background-color: rgb(40, 40, 164);
+    margin-left: 5rem;
+}
+.form-input-btn{
+    margin-top:4rem;
+}
+
+.form:hover .social-media{
+    bottom:0.2vh;
+}
+
+.social-media{
+    display: flex;
+    justify-content:space-around;
+    margin-top:3rem;
+    position: absolute;
+   padding:1.5rem;
+   bottom: -100px;
+   transition-property: all;
+   transition-duration: 0.5s;
+   transition-timing-function: ease-in-out;
+}
+.social-media a{
+  font-size: 2rem;
+  margin-left:6rem;
+  text-decoration: none;
+}
+.social-media a img{
+    width:5rem;
+    height: 5rem;
+    border-radius:50%;
+
+}
+
+.copy{
+    text-align: center;
+    color:red;
+    font-size: 3rem;
+    margin-bottom:5rem;
+    margin-top:-80px;
+}

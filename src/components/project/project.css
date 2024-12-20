@@ -1,0 +1,153 @@
+
+.project{
+    color:white;
+   background-color: black;
+
+   
+}
+
+.project-data{
+    padding: 5rem;
+
+    border: 2px solid white;
+    margin-top: 2rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.button-1 {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: absolute;
+  width:12rem;
+  top:-50px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  right:20px;
+}
+.button-1:hover{
+    cursor: progress;
+} 
+
+.button-1 a{
+    all:unset;
+}
+
+.eye{
+    color:white;
+    font-size:1.5rem;
+    margin-right: 1rem;
+}
+
+
+
+
+.project-main{
+    text-align: center;
+  color: red;
+  font-size:3rem;
+  padding: 1.2rem;
+ 
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 4rem;
+
+}
+
+.project-main::first-letter{
+    color:white;
+    font-size: 4.5rem;
+}
+
+
+
+
+.project-data:hover{
+    background-color:black;
+    cursor:pointer;
+  
+}
+
+.project-data:hover .button-1{
+ 
+  top:20px;
+  
+}
+
+.project-title{
+    text-align: center;
+    font-size:4rem;
+    margin-top:5rem;
+    color:red;
+}
+.project-title::first-letter{
+    color:white;
+    font-size: 5rem;
+}
+
+.project-motive{
+    color:red;
+    font-size:3rem;
+  
+
+}
+
+.project-description{
+   text-indent: 3rem;
+   font-size:2rem;
+   margin-top: 2rem;
+   line-height:3rem;
+   word-spacing:0.5rem;
+   text-align: justify;
+}
+
+.project-description::first-letter{
+    color: red;
+    font-size: 5rem;
+}
+
+.project-tech{
+      /* background-color: green; */
+      margin-top: 2rem;
+}
+.tech{
+    color:red;
+    font-size: 2rem;
+}
+
+.tech+span{
+    color: white;
+    font-size:1.5rem;
+}

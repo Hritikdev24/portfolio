@@ -1,0 +1,70 @@
+.info{
+    color:white;
+   background-color: black;
+   padding:0px 2rem;
+   height: 100vh;
+ 
+}
+
+
+
+.info table{
+    width:100%;
+
+}
+
+.info .message{
+    width:40rem;
+   overflow-x: auto;
+ height:10rem;
+    
+}
+.info table caption{
+    background-color: white;
+    font-size: 3rem;
+    color:black;
+    padding:0.6rem;
+    font-weight: bold;
+
+}
+
+
+
+
+ .info table,tr,td,th{
+    border:1px solid orangered;
+  border-collapse: collapse;
+  font-size:2rem;
+  background-color: black;
+  text-align: center;
+   padding: 0px 1rem;
+ 
+}
+
+.info table tr{
+    height:10rem;
+}
+
+.info  table tr:hover td{
+  background-color:white;
+ color:black;
+ cursor: pointer;
+}
+
+.info table  tr th{
+    background-color: orangered;
+}
+.trash-red{
+    color: red;
+}
+.logout-btn{
+    all:unset;
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    width:10rem;
+    font-size:2rem;
+    padding: 0.7rem;
+    margin-left: 3rem;
+    
+}
