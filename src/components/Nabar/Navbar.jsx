@@ -56,7 +56,7 @@ export function Navbar() {
           className={`${isHide ? "hide" : "show"} login-btn`}
           onClick={login}
         >
-          <Link to="login" smooth={true} duration={500}>
+          <Link to="login" smooth={true} duration={500}   onClick={login}>
             Login
           </Link>
         </button>

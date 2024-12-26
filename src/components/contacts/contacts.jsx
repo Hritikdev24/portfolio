@@ -99,7 +99,7 @@ export function Contacts() {
 <div className="contact-contact">
       <div className="contacs-main">
         <form className="form" method="post">
-          <h1 className="form-title">Connect With Me</h1>
+          <h1 className="form-title">Contact Me</h1>
           <div className="input-field">
             <label htmlFor="userName" className="label">
               userName
