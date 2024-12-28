@@ -1,5 +1,5 @@
 
-import { useEffectgit } from 'react';
+import { useEffect } from 'react';
 import { Navbar } from './components/Nabar/Navbar';
 import { Hero } from './components/hero/Hero';
 import { About } from './components/about/About';
