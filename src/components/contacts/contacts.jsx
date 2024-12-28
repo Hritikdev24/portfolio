@@ -48,7 +48,7 @@ export function Contacts() {
     data.date=dayjs().format('YYYY-MM-DD HH:mm:ss A')
   
     axios
-      .post("http://localhost:9090/message", data, {
+      .post(`https://backend-tk59.onrender.com/message`, data, {
         headers: { "Content-Type": "application/json" },
       })
       .then((res) => {

@@ -1,5 +1,5 @@
 
-
+import { useEffectgit } from 'react';
 import { Navbar } from './components/Nabar/Navbar';
 import { Hero } from './components/hero/Hero';
 import { About } from './components/about/About';
@@ -11,6 +11,12 @@ import { Login } from './components/login/login';
 import { Info } from './components/info/info';
 import{Route,Routes} from "react-router-dom"
 function App() {
+  useEffect(() => {
+    window.addEventListener('contextmenu', (event) => event.preventDefault());
+    return () => {
+      window.removeEventListener('contextmenu', (event) => event.preventDefault());
+    };
+  }, []);
   return (
     <div className="App">
        <Routes>

@@ -14,10 +14,10 @@ export function Login() {
   });
   function handleSubmit(e) {
     e.preventDefault();
-    axios.get("./data/login.json").then((res) => {
+  
       const { userName, password } = data;
       
-      if (res.data.userName == userName && res.data.password == password) {
+      if (userName=="hritik"  && password=="Hritik@11") {
         Swal.fire({
           title: "Your  Login Plase Wait...",
           html: "Hritik Only You Have Access To It",
@@ -42,7 +42,7 @@ export function Login() {
           text: "Please Enter Valid Creadential !",
         });
       }
-    });
+ 
   }
 
   function handleCancle(e) {

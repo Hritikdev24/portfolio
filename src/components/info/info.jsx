@@ -21,7 +21,7 @@ export function Info() {
         if (result.isConfirmed) {
          
      
-           axios.delete(`http://localhost:9090/delete/${id}`).then(
+           axios.delete(`https://backend-tk59.onrender.com/delete/${id}`).then(
             res=>{
                   if(res.status==200){
                     Swal.fire({
@@ -58,7 +58,7 @@ export function Info() {
       navigation("/");
      }
 
-    axios.get("http://localhost:9090").then((res) => {
+    axios.get("https://backend-tk59.onrender.com/").then((res) => {
       setData(res.data);
     });
   }, [data,cookies.name]);
