@@ -13,9 +13,11 @@ export function Contacts() {
     message: "",
   });
 
+  const [isLoading,setLoading]=useState(false);
+
   function handleSubmit(e) {
     e.preventDefault();
-
+  setLoading(true);
     if (!data.userName || !data.email || !data.message) {
       Swal.fire({
         icon: "error",
@@ -52,6 +54,8 @@ export function Contacts() {
         headers: { "Content-Type": "application/json" },
       })
       .then((res) => {
+
+        setLoading(false);
         if (res.status===200) {
          
         
@@ -70,6 +74,7 @@ export function Contacts() {
         }
       })
       .catch((err) => {
+        setLoading(false)
         const errorMessage = err.response
           ? err.response.data.message
           : "Network Error";
@@ -147,7 +152,10 @@ export function Contacts() {
           </div>
           <div className="input-field form-input-btn">
             <button className="form-btn blue" onClick={handleSubmit}>
-              submit
+               {
+                   isLoading?<span className="loader"></span>:null
+               }
+               <span>   submit</span>
             </button>
             <button className="form-btn red" onClick={handleCancle}>
               cancel

@@ -9,7 +9,8 @@ import { Project } from './components/project/project';
 import { Contacts } from './components/contacts/contacts';
 import { Login } from './components/login/login';
 import { Info } from './components/info/info';
-import{Route,Routes} from "react-router-dom"
+import{Route,Routes} from "react-router-dom";
+import { Loading } from './components/loading/Loading';
 function App() {
   useEffect(() => {
     window.addEventListener('contextmenu', (event) => event.preventDefault());
@@ -30,7 +31,7 @@ function App() {
    <Skill/>
    <Project/>
    <Contacts/>
-
+    
     </div>
   );
 }

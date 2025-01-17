@@ -6,18 +6,20 @@ import { useCookies } from "react-cookie";
 import axios from "axios";
 export function Login() {
   const [cookies, setCookie, removeCookie] = useCookies();
-
+  const [isLoading,setLoading]=useState(false)
   const navigation = useNavigate();
   const [data, setData] = useState({
     userName:"",
     password:"",
   });
   function handleSubmit(e) {
+    setLoading(true)
     e.preventDefault();
   
       const { userName, password } = data;
       
       if (userName=="hritik"  && password=="Hritik@11") {
+        setLoading(false)
         Swal.fire({
           title: "Your  Login Plase Wait...",
           html: "Hritik Only You Have Access To It",
@@ -35,7 +37,7 @@ export function Login() {
         setCookie("name", "Hritik");
         navigation("/info");
       } else {
-      
+        setLoading(false)
         Swal.fire({
           icon: "error",
           title: "Oops...",
@@ -108,6 +110,9 @@ useEffect(()=>{
 
           <div className="input-field form-input-btn">
             <button className="form-btn blue" onClick={handleSubmit}>
+            {
+                   isLoading?<span className="loader"></span>:null
+               }
               Login
             </button>
             <button className="form-btn red" onClick={handleCancle}>
