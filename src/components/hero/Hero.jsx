@@ -79,7 +79,7 @@ export function Hero() {
         <span className={`date`}>{time}</span>
         <img src="./images/hritik.jpg" alt="" className="img" />
         <h1 className="headLine">
-          <span>MERN Stack Developer </span>
+          <span>MERN+A Stack Developer </span>
         </h1>
         <p className="sub-headLine">
           Hi, I'm Hritik, crafting seamless web applications with MongoDB,
@@ -92,7 +92,7 @@ export function Hero() {
             </Link>
           </button>
           <button className="resume-btn">
-            <a href="./resume/hritik.pdf" download={"hritik"}>
+            <a href="../../resume/Hritik+(MERNA).pdf" download={"hritik"}>
               Resume
             </a>
           </button>
