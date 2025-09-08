@@ -9,7 +9,7 @@ export function Project() {
           <div className="project-data">
             <button className="button-1">
               <i class="bi bi-eye-fill eye"></i>
-              <a href="https://haweli-gmlf.onrender.com/">To See</a>
+              <a href="https://haweli-gmlf.onrender.com/" target="_blank">To See</a>
             </button>
             <img src="" alt="" />
             <h1 className="project-title">FoodFleet 🚛</h1>
@@ -36,7 +36,7 @@ export function Project() {
           <div className="project-data">
             <button className="button-1">
               <i class="bi bi-eye-fill eye"></i>
-              <a href="https://institute-management-app-1.onrender.com/">To See</a>
+              <a href="https://institute-management-app-1.onrender.com" target="_blank">To See</a>
             </button>
             <img src="" alt="" />
             <h1 className="project-title">SmartInstitute 🤖</h1>

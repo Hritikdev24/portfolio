@@ -112,8 +112,8 @@
 
 }
 .headLine {
-  margin-top: 2rem;
-  font-size: 3rem;
+  margin-top: 2 rem;
+  font-size: 1 rem;
   animation-name: large;
   animation-duration: 1s;
 }

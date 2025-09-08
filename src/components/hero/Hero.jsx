@@ -78,12 +78,11 @@ export function Hero() {
 
         <span className={`date`}>{time}</span>
         <img src="./images/hritik.jpg" alt="" className="img" />
-        <h1 className="headLine">
-          <span>MERN+A Stack Developer </span>
+        <h1>
+          <span>MERN+A | NestJS & Next.js | Microservices with RabbitMQ & Redis </span>
         </h1>
         <p className="sub-headLine">
-          Hi, I'm Hritik, crafting seamless web applications with MongoDB,
-          Express.js, React, and Node.js.
+        Hi, I'm Hritik — building scalable web applications with MongoDB, Express.js, React, Angular, Node.js, NestJS, and Next.js, leveraging Microservices, RabbitMQ, and Redis for high-performance solutions
         </p>
         <div className="hero-btn">
           <button className="contact-btn">
@@ -92,7 +91,7 @@ export function Hero() {
             </Link>
           </button>
           <button className="resume-btn">
-            <a href="../../resume/Hritik+(MERNA).pdf" download={"hritik"}>
+            <a href="../../resume/hritik.pdf" download={"hritik"}>
               Resume
             </a>
           </button>
