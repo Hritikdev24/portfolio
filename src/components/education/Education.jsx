@@ -91,6 +91,9 @@ export function Education() {
                 AmeriPro Solutions Pvt Ltd (India)
               </a>
             </h3>
+              <p className="card-marks">
+               Jr. Software Developer
+            </p>
             <h4 className="card-year">(Jan 2025 – Present)</h4>
           </div>
         </div>
