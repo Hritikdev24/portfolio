@@ -27,7 +27,7 @@ export function Navbar() {
     <div className="hritik">
       <header className="navBar">
         <span className="title">
-          MERN-<span className="sub">D</span>ev
+          MERNA-<span className="sub">D</span>ev
         </span>
         <span className="bi bi-list list-menu" onClick={navToggler}></span>
         <ul className={`${isNav ? "slipdown" : "slipup"} nav-menu`}>
