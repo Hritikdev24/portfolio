@@ -46,7 +46,7 @@ export function Education() {
             <h2 className="card-title">Graduation:Bachelor of Technology</h2>
             <h3 className="card-subtitle">
               <a href="http://pescoe.ac.in/" target="_blanck">
-                P.E.S College of Engineering, Aurangabad
+                P.E.S College of Engineering, Chhatrapati Sambhajinagar
               </a>
             </h3>
             <h4 className="card-year">(2020-2024)</h4>
